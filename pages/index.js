@@ -70,10 +70,14 @@ export default function PaginaInicial() {
             
             <Box
                 styleSheet={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     backgroundImage: 'url(https://picfiles.alphacoders.com/252/252878.jpg)',
-                    backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
+                    backgroundRepeat: 'no-repeat', 
+                    backgroundSize: 'cover', 
+                    backgroundBlendMode: 'multiply',
                 }}
             >
                 <Box
@@ -85,8 +89,11 @@ export default function PaginaInicial() {
                             xs: 'column',
                             sm: 'row',
                         },
-                        width: '100%', maxWidth: '700px',
-                        borderRadius: '5px', padding: '32px', margin: '16px',
+                        width: '100%', 
+                        maxWidth: '700px',
+                        borderRadius: '5px', 
+                        padding: '32px', 
+                        margin: '16px',
                         boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
                         backgroundColor: appConfig.theme.colors.neutrals[700],
                     }}
@@ -102,12 +109,24 @@ export default function PaginaInicial() {
 
                         }}
                         styleSheet={{
-                            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-                            width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
+                            display: 'flex', 
+                            flexDirection: 'column', 
+                            alignItems: 'center', 
+                            justifyContent: 'center',
+                            width: { xs: '100%', sm: '50%' }, 
+                            textAlign: 'center', 
+                            marginBottom: '32px',
                         }}
                     >
-                        <Titulo tag="h2">Boas vindas!</Titulo>
-                        <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
+                        <Titulo 
+                            tag="h2">
+                                Boas vindas!
+                        </Titulo>
+
+                        <Text 
+                            variant="body3" 
+                            styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}
+                        >
                             {appConfig.name}
                         </Text>
 
